@@ -12,18 +12,6 @@ public class Super {
 	}
 }
 
-class Teacher extends Human {
-	public Teacher() {
-		System.out.println("Teacher class constructor called");
-	}
-}
-
-class Human {
-	public Human(String name) {
-		System.out.println("Human class constructor called");
-	}
-}
-
 
 class Student extends Person {
 	public Student() {
